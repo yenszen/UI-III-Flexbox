@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 0 100px;
+}
+
+header {
+	padding: 40px 0;
+	/* background: orange; */
+}
+
+header nav a {
+	color: grey;
+	padding: 10px 25px;
+	text-decoration: none;
+	/* background-color: greenyellow; */
+}
+
+header nav a:first-child {
+	padding-left: 0;
+}
+
+header .logo {
+	position: relative;
+	/* background-color: green; */
+	margin-left: 80%;
+	margin-top: -20px;
+}
+
+.top-div {
+	/* background-color: lightblue; */
+	border-bottom: 2px solid black;
+	display: block;
+	height: 500px;
+}
+
+.top-div h1 {
+	display: inline-block;
+	font-size: 80px;
+	/* background-color: green; */
+	height: 250px;
+	width: 350px;
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 15%;
+}
+
+.top-div span {
+	display: block;
+	height: 30px;
+	width: 150px;
+	padding: 5px 35px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin-left: 25%;
+}
+
+.top-div img {
+	position: relative;
+	margin-left: 60%;
+	margin-top: -320px;
+}
+
+.top-section {
+	/* background: orange; */
+	display: inline-block;
+	column-count: 2;
+	padding: 40px 0;
+}
+
+.middle-img {
+	display: block;
+	width: 100%;
+}
+
+.bottom-section {
+	/* background: lightblue; */
+	column-count: 3;
+	padding: 40px 0;
+}
+
+footer {
+	/* background: orange; */
+	padding: 40px 0 100px;
+	border-top: 2px solid black;
+}
+
+footer span {
+	display: block;
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
