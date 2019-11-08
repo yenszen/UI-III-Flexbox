@@ -126,11 +126,14 @@ header nav a {
     margin: 20px 0;
     border: 1px solid black;
     background: rgb(230, 228, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .gallery div button {
-    padding: 5px 25px;
-    margin-top: 20px;
+    height: 3em;
+    width: 35%;
     border-radius: 6px;
     background-color: rgb(252, 252, 253);
 }
