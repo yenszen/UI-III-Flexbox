@@ -82,12 +82,12 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 40px 0;
+	align-items: center;
 	/* background-color: orange; */
 }
 
 header nav {
 	display: flex;
-	padding-top: 10px;
 	width: 70%;
 	justify-content: space-between;
 }
