@@ -156,18 +156,3 @@ footer span {
 	display: flex;
 	justify-content: center;
 }
-
-/* ------------------------------------- Services page styling ------------------------------------------ */
-
-.services header nav {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	background-color: blue;
-}
-
-.services .logo {
-	display: flex;
-	justify-content: flex-end;
-	background-color: blueviolet;
-}
