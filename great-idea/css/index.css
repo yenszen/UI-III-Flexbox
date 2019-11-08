@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	margin: 0 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	/* border: 5px solid black; */
 }
 
 header {
@@ -75,20 +77,23 @@ header {
 
 header nav a {
 	color: grey;
-	padding: 10px 25px;
+	padding-top: 10px;
 	text-decoration: none;
 	/* background-color: greenyellow; */
 }
 
-header nav a:first-child {
-	padding-left: 0;
+nav {
+	display: flex;
+	width: 75%;
+	justify-content: space-evenly;
 }
 
 header .logo {
+	display: inline-block;
 	position: relative;
 	/* background-color: green; */
 	margin-left: 80%;
-	margin-top: -20px;
+	margin-top: -50px;
 }
 
 .top-div {
@@ -127,13 +132,11 @@ header .logo {
 
 .top-section {
 	/* background: orange; */
-	display: inline-block;
 	column-count: 2;
 	padding: 40px 0;
 }
 
 .middle-img {
-	display: block;
 	width: 100%;
 }
 
@@ -150,12 +153,21 @@ footer {
 }
 
 footer span {
-	display: block;
-	height: 40px;
-	width: 280px;
-	text-align: center;
-	padding-top: 10px;
-	box-sizing: border-box;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+	justify-content: center;
+}
+
+/* ------------------------------------- Services page styling ------------------------------------------ */
+
+.services header nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	background-color: blue;
+}
+
+.services .logo {
+	display: flex;
+	justify-content: flex-end;
+	background-color: blueviolet;
 }
